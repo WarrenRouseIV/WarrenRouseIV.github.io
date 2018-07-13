@@ -1,0 +1,80 @@
+ul {
+    list-style-type: none;
+    margin: 15;
+    padding: ;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:  #ADD8E6;
+}
+
+.active {
+    background-color: #D4AF37;
+}
+body {
+    background-color: maroon;
+    color: white;
+}
+p.dashed {border-style: dashed;}
+p.one {
+    border-style: solid;
+    border-color: red green blue yellow;
+} 
+p.mix {border-style: dotted dashed solid double;
+  border-color: red green blue yellow;}
+p.three {
+    border-style: dotted;
+    border-width: 7px;
+}
+p.inset {border-style: inset;
+border-color: #008c8c  }
+ p {
+    border: 2.5px dotted bule;
+    text-indent: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: goergia;   
+}
+.float-img {
+    float: right;
+    clear: right;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    border: solid  #D4AF37; 25px;
+    padding: 2px;
+}
+.float-image{
+    float: left;
+    clear: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: solid  #D4AF37; 2.5px;
+    padding: 2px;
+}
+h1 {
+      text-decoration: underline;
+}
+div {
+    border-style: dashed;
+        border-color: bule;
+            border-width: 2.5px
+}
+.clearfix {
+    overflow: auto;
+}
+.video{border: solid  #D4AF37; 5px;}
