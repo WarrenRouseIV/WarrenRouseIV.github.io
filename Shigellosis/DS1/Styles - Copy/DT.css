@@ -50,7 +50,7 @@ p {
     font-size: 24px;
     font-family: goergia;     
 }
-.NoCap {font-size: 39px;
+.NoCap {font-size: 26px;
     font-family: goergia;}
 .float-img{
     float: right;
@@ -84,6 +84,6 @@ div {
     overflow: auto;
 }
 .TxtSize{
-   font-size: 31px;
+   font-size: 26px;
     font-family: goergia;  
 }
